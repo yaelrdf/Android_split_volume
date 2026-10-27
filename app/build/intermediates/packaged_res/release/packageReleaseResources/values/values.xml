@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#3D5AFE</color>
+    <string name="app_name">Split Volume</string>
+    <string name="cd_l_down">Turn L down</string>
+    <string name="cd_l_up">Turn L up</string>
+    <string name="cd_r_down">Turn R down</string>
+    <string name="cd_r_up">Turn R up</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="side_l">L</string>
+    <string name="side_r">R</string>
+    <string name="swap_sides">Swap L ⇄ R</string>
+    <style name="Theme.SplitVolume" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.SplitVolume.Dialog" parent="android:Theme.Material.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMinor">92%</item>
+        <item name="android:windowMinWidthMajor">60%</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+</resources>

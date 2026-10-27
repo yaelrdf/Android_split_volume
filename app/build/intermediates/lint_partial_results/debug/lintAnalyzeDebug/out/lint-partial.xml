@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.4.1" type="partial_results">
+    <map id="NotificationPermission">
+        <entry
+            name="source"
+            boolean="true"/>
+    </map>
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.settings.ACCESSIBILITY_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/dev/yaelrdf/splitvolume/ui/MainActivity.kt"
+                            line="303"
+                            column="23"
+                            startOffset="14083"
+                            endLine="303"
+                            endColumn="69"
+                            endOffset="14129"/>
+                    </map>
+                    <map id="android.settings.APPLICATION_DETAILS_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/dev/yaelrdf/splitvolume/ui/MainActivity.kt"
+                            line="307"
+                            column="23"
+                            startOffset="14192"
+                            endLine="307"
+                            endColumn="107"
+                            endOffset="14276"/>
+                    </map>
+                    <map id="android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/dev/yaelrdf/splitvolume/ui/MainActivity.kt"
+                            line="299"
+                            column="23"
+                            startOffset="13922"
+                            endLine="299"
+                            endColumn="115"
+                            endOffset="14014"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="dev.yaelrdf.splitvolume.BluetoothReceiver"
+                    boolean="true"/>
+                <entry
+                    name="dev.yaelrdf.splitvolume.DiagReceiver"
+                    boolean="true"/>
+                <entry
+                    name="dev.yaelrdf.splitvolume.ui.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[launcher_background(U)],drawable[ic_launcher_foreground(U),ic_notification(U),notif_button_bg(U)],id[l_minus(U),l_bar(U),l_plus(U),l_value(U),r_minus(U),r_bar(U),r_plus(U),r_value(U),swap(U)],layout[notification_big(U),notification_small(U)],mipmap[ic_launcher(U)],string[app_name(U),side_l(U),cd_l_down(U),minus(U),cd_l_up(U),plus(U),side_r(U),cd_r_down(U),cd_r_up(U),swap_sides(U)],style[Theme_SplitVolume(U),Theme_SplitVolume_Dialog(U),TextAppearance_Compat_Notification_Title(R),TextAppearance_Compat_Notification(R)];d^11^1c^3^12^13^14^15^1d^16^17^18^19,e^11^1c^3^12^13^1d^14^15^16^17^18,f^0^1;;;"/>
+    </map>
+
+</incidents>

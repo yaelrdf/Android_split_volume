@@ -1,0 +1,7 @@
+#Tue Oct 20 02:07:22 CST 2026
+base.0=/home/yaelrdf/Andoid_volume/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/home/yaelrdf/Andoid_volume/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

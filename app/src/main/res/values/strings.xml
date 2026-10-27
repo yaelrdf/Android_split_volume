@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Split Volume</string>
+
+    <!-- Sides are named after the earbud markings, never after who wears them. -->
+    <string name="side_l">L</string>
+    <string name="side_r">R</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="swap_sides">Swap L ⇄ R</string>
+    <string name="cd_l_down">Turn L down</string>
+    <string name="cd_l_up">Turn L up</string>
+    <string name="cd_r_down">Turn R down</string>
+    <string name="cd_r_up">Turn R up</string>
+</resources>

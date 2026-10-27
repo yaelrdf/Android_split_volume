@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.yaelrdf.splitvolume.BalanceMapperTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-20T07:59:55.283Z" hostname="dev-services" time="0.076">
+  <properties/>
+  <testcase name="louderSideDrivesVolumeAndQuieterSideIsAttenuated" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.008"/>
+  <testcase name="balanceMatchesMeasuredAudioFlingerCurve" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.0"/>
+  <testcase name="bothSilent" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.0"/>
+  <testcase name="rescaleKeepsRatio" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.001"/>
+  <testcase name="equalLevelsMeanNoBalance" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.0"/>
+  <testcase name="levelAndIndexRoundTripSoVolumeKeyEchoesAreIgnored" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.051"/>
+  <testcase name="leftLouderGivesNegativeBalance" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.001"/>
+  <testcase name="mutedSideIsFullyOff" classname="dev.yaelrdf.splitvolume.BalanceMapperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

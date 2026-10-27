@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "dev.yaelrdf.splitvolume.app-debug-32:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "dev.yaelrdf.splitvolume.app-main-34:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "dev.yaelrdf.splitvolume.app-debug-32:/layout_notification_small.xml.flat",
+        "source": "dev.yaelrdf.splitvolume.app-main-34:/layout/notification_small.xml"
+    },
+    {
+        "merged": "dev.yaelrdf.splitvolume.app-debug-32:/drawable_ic_notification.xml.flat",
+        "source": "dev.yaelrdf.splitvolume.app-main-34:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "dev.yaelrdf.splitvolume.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "dev.yaelrdf.splitvolume.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "dev.yaelrdf.splitvolume.app-debug-32:/drawable_notif_button_bg.xml.flat",
+        "source": "dev.yaelrdf.splitvolume.app-main-34:/drawable/notif_button_bg.xml"
+    },
+    {
+        "merged": "dev.yaelrdf.splitvolume.app-debug-32:/layout_notification_big.xml.flat",
+        "source": "dev.yaelrdf.splitvolume.app-main-34:/layout/notification_big.xml"
+    }
+]

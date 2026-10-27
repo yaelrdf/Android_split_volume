@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.4.1" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 9.8.1 is available: 9.8.2">
+        <fix-replace
+            description="Update to 9.8.2"
+            oldString="9.8.1"
+            replacement="9.8.2"
+            priority="0"/>
+        <location
+            file="$HOME/Andoid_volume/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="80"
+            endOffset="144"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.10.0 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.10.0"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/Andoid_volume/gradle/libs.versions.toml"
+            line="8"
+            column="13"
+            startOffset="147"
+            endLine="8"
+            endColumn="21"
+            endOffset="155"/>
+    </incident>
+
+</incidents>

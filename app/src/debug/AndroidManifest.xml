@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <!-- Debug builds only: lets adb poke individual audio calls while troubleshooting.
+             Exported without a permission on purpose so `adb shell am broadcast` can reach it; see SECURITY.md. -->
+        <receiver
+            android:name=".DiagReceiver"
+            android:exported="true"
+            tools:ignore="ExportedReceiver" />
+    </application>
+</manifest>

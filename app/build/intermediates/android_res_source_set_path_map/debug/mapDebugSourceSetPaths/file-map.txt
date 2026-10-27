@@ -1,0 +1,8 @@
+dev.yaelrdf.splitvolume.app-pngs-0 /home/yaelrdf/Andoid_volume/app/build/generated/res/pngs/debug
+dev.yaelrdf.splitvolume.app-updated_navigation_xml-1 /home/yaelrdf/Andoid_volume/app/build/generated/updated_navigation_xml/debug
+dev.yaelrdf.splitvolume.app-packageDebugResources-2 /home/yaelrdf/Andoid_volume/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+dev.yaelrdf.splitvolume.app-packageDebugResources-3 /home/yaelrdf/Andoid_volume/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+dev.yaelrdf.splitvolume.app-debug-4 /home/yaelrdf/Andoid_volume/app/build/intermediates/merged_res/debug/mergeDebugResources
+dev.yaelrdf.splitvolume.app-debug-5 /home/yaelrdf/Andoid_volume/app/src/debug/res
+dev.yaelrdf.splitvolume.app-main-6 /home/yaelrdf/Andoid_volume/app/src/main/res
+gradleHome-0 /home/yaelrdf/.gradle

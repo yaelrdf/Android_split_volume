@@ -1,0 +1,235 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.yaelrdf.splitvolume"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="33"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+11-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:4:5-76
+11-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:4:22-73
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:5:5-77
+12-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+13-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:6:5-80
+13-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:7:5-77
+14-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" /> <!-- A companion-device association plus one of these lets the session start when the headphones connect in the background. -->
+15-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:8:5-94
+15-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:8:22-91
+16    <uses-permission android:name="android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
+16-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:10:5-118
+16-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:10:22-115
+17    <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND" />
+17-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:11:5-94
+17-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:11:22-91
+18    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+18-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:12:5-95
+18-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:12:22-92
+19
+20    <uses-feature
+20-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:14:5-16:36
+21        android:name="android.software.companion_device_setup"
+21-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:15:9-63
+22        android:required="false" />
+22-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:16:9-33
+23
+24    <permission
+24-->[androidx.core:core:1.19.1] /home/yaelrdf/.gradle/caches/9.8.1/transforms/8e106a235b088a74b0f24315d157b7a4/transformed/core-1.19.1/AndroidManifest.xml:22:5-24:47
+25        android:name="dev.yaelrdf.splitvolume.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.19.1] /home/yaelrdf/.gradle/caches/9.8.1/transforms/8e106a235b088a74b0f24315d157b7a4/transformed/core-1.19.1/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.19.1] /home/yaelrdf/.gradle/caches/9.8.1/transforms/8e106a235b088a74b0f24315d157b7a4/transformed/core-1.19.1/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="dev.yaelrdf.splitvolume.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.19.1] /home/yaelrdf/.gradle/caches/9.8.1/transforms/8e106a235b088a74b0f24315d157b7a4/transformed/core-1.19.1/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.19.1] /home/yaelrdf/.gradle/caches/9.8.1/transforms/8e106a235b088a74b0f24315d157b7a4/transformed/core-1.19.1/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:18:5-61:19
+31        android:name="dev.yaelrdf.splitvolume.SplitVolumeApp"
+31-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:19:9-39
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.19.1] /home/yaelrdf/.gradle/caches/9.8.1/transforms/8e106a235b088a74b0f24315d157b7a4/transformed/core-1.19.1/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+34-->INJECTED
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:20:9-43
+36        android:label="@string/app_name"
+36-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:21:9-41
+37        android:supportsRtl="true"
+37-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:22:9-35
+38        android:theme="@style/Theme.SplitVolume" >
+38-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:23:9-49
+39
+40        <!--
+41             Debug builds only: lets adb poke individual audio calls while troubleshooting.
+42             Exported without a permission on purpose so `adb shell am broadcast` can reach it; see SECURITY.md.
+43        -->
+44        <receiver
+44-->/home/yaelrdf/Andoid_volume/app/src/debug/AndroidManifest.xml:7:9-10:47
+45            android:name="dev.yaelrdf.splitvolume.DiagReceiver"
+45-->/home/yaelrdf/Andoid_volume/app/src/debug/AndroidManifest.xml:8:13-41
+46            android:exported="true" />
+46-->/home/yaelrdf/Andoid_volume/app/src/debug/AndroidManifest.xml:9:13-36
+47
+48        <activity
+48-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:25:9-33:20
+49            android:name="dev.yaelrdf.splitvolume.ui.MainActivity"
+49-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:26:13-44
+50            android:exported="true"
+50-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:27:13-36
+51            android:launchMode="singleTop" >
+51-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:28:13-43
+52            <intent-filter>
+52-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:29:13-32:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:30:17-69
+53-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:30:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:31:17-77
+55-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:31:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:35:9-41:63
+59            android:name="dev.yaelrdf.splitvolume.ui.QuickControlsActivity"
+59-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:36:13-53
+60            android:excludeFromRecents="true"
+60-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:37:13-46
+61            android:exported="false"
+61-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:38:13-37
+62            android:launchMode="singleTop"
+62-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:39:13-43
+63            android:taskAffinity=""
+63-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:40:13-36
+64            android:theme="@style/Theme.SplitVolume.Dialog" />
+64-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:41:13-60
+65
+66        <service
+66-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:43:9-46:63
+67            android:name="dev.yaelrdf.splitvolume.SplitVolumeService"
+67-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:44:13-47
+68            android:exported="false"
+68-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:45:13-37
+69            android:foregroundServiceType="connectedDevice" />
+69-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:46:13-60
+70
+71        <receiver
+71-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:48:9-56:20
+72            android:name="dev.yaelrdf.splitvolume.BluetoothReceiver"
+72-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:49:13-46
+73            android:exported="true" >
+73-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:50:13-36
+74            <intent-filter>
+74-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:51:13-55:29
+75                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+75-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:52:17-88
+75-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:52:25-85
+76                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+76-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:53:17-91
+76-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:53:25-88
+77                <action android:name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED" />
+77-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:54:17-105
+77-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:54:25-102
+78            </intent-filter>
+79        </receiver>
+80        <receiver
+80-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:58:9-60:40
+81            android:name="dev.yaelrdf.splitvolume.NotificationActionReceiver"
+81-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:59:13-55
+82            android:exported="false" />
+82-->/home/yaelrdf/Andoid_volume/app/src/main/AndroidManifest.xml:60:13-37
+83
+84        <uses-library
+84-->[androidx.window:window:1.5.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/21a0d7cf3b2f2dc6cdfe4362d4bc4d07/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.5.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/21a0d7cf3b2f2dc6cdfe4362d4bc4d07/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.5.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/21a0d7cf3b2f2dc6cdfe4362d4bc4d07/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+87        <uses-library
+87-->[androidx.window:window:1.5.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/21a0d7cf3b2f2dc6cdfe4362d4bc4d07/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.5.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/21a0d7cf3b2f2dc6cdfe4362d4bc4d07/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+89            android:required="false" />
+89-->[androidx.window:window:1.5.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/21a0d7cf3b2f2dc6cdfe4362d4bc4d07/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+93            android:authorities="dev.yaelrdf.splitvolume.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/1c7fedc809efa1409d0172d537631ee5/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/9cd0bc0ac9682975d612a1e1a41b204c/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/9cd0bc0ac9682975d612a1e1a41b204c/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/9cd0bc0ac9682975d612a1e1a41b204c/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+103                android:value="androidx.startup" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+104        </provider>
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/yaelrdf/.gradle/caches/9.8.1/transforms/286b238e748ca09ff55093b7e13b477c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>

@@ -1,0 +1,29 @@
+<variant
+    name="debug"
+    package="dev.yaelrdf.splitvolume"
+    minSdkVersion="33"
+    targetSdkVersion="37.0"
+    debuggable="true"
+    mergedManifest="build/intermediates/merged_manifest/debug/processDebugMainManifest/AndroidManifest.xml"
+    partialResultsDir="build/intermediates/android_test_lint_partial_results/debug/lintAnalyzeDebugAndroidTest/out"
+    desugaredMethodsFiles="/home/yaelrdf/.gradle/caches/9.8.1/transforms/6a2a079aeb653a6d6c01dfcad813f25a/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src/androidTest/AndroidManifest.xml"
+        javaDirectories="src/androidTest/java:src/androidTestDebug/java:src/androidTest/kotlin:src/androidTestDebug/kotlin"
+        resDirectories="src/androidTest/res:src/androidTestDebug/res"
+        assetsDirectories="src/androidTest/assets:src/androidTestDebug/assets"
+        keepRulesDirectories="src/androidTest/keepRules:src/androidTestDebug/keepRules"
+        androidTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="INSTRUMENTATION_TEST"
+      applicationId="dev.yaelrdf.splitvolume.test"
+      desugaredMethodsFiles="/home/yaelrdf/.gradle/caches/9.8.1/transforms/6a2a079aeb653a6d6c01dfcad813f25a/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

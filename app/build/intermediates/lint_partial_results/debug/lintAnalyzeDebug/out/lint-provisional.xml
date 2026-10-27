@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.4.1" type="conditional_incidents">
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS" message="Missing permissions required by NotificationManagerCompat.notify: %1$s" lastApi="2147483647" operator="&amp;"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/dev/yaelrdf/splitvolume/Notifications.kt"
+            line="68"
+            column="9"
+            startOffset="3156"
+            endLine="68"
+            endColumn="73"
+            endOffset="3220"/>
+        <map>
+            <entry
+                name="message"
+                string="Missing permissions required by NotificationManagerCompat.notify: %1$s"/>
+            <entry
+                name="requirement"
+                string="android.permission.POST_NOTIFICATIONS"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NotificationPermission"
+        severity="error"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/dev/yaelrdf/splitvolume/Notifications.kt"
+            line="68"
+            column="9"
+            startOffset="3156"
+            endLine="68"
+            endColumn="73"
+            endOffset="3220"/>
+    </incident>
+
+</incidents>
